@@ -1,46 +1,46 @@
-# Prova Trimestral - Frameworks CSS, JavaScript & jQuery
-
-### Desenvolvimento de Aplicações Web 
+# Projeto T1: JavaScript + HTML DOM
 
 João Eduardo Montandon
 
 Setor de Informática - COLTEC/MG
 
-**Valor: 15 pontos**
+**Valor: 7 pontos**
 
-# Jogo da Velha
+**Data de Apresentação: 12/05/2023**
 
-Uma das grandes vantagens ao utilizar JavaScript para desenvolvimento de páginas web está presente na capacidade de prover recursos animados ao navegador. Essa funcionalidade enriquece consideravelmente a experiência de usuário que acessa tais páginas. 
+No de integrantes: até quatro alunos.
 
-Entre as novas modalidades de páginas web que surgiram com o advento do JavaScript, podemos destacar principalmente as páginas voltadas para jogos eletrônicos.
 
-Nesta avaliação você irá implementar um jogo da velha para web. Mais especificamente, sua avaliação será pontuada de acordo com os requisitos abaixo:
+## Componentes JavaScript
 
-### Lógica do Game (6 pontos)
+Utilizando seus conhecimentos em JavaScript e HTML DOM, implemente um dos seguintes componentes:
 
-Implemente, utilizando a linguagem JavaScript, a lógica necessária para funcionamento do Jogo da Velha. Para fins de teste, seu jogo deverá executar corretamente via terminal. 
+1. Abas: um componente que contenha um painel e um conjunto de botões. O conteúdo deste painel muda de acordo com o o botão selecionado. [Exemplo](https://www.youtube.com/) (Tópicos no topo da tela).
+    - Deverão ser utilizados containers para exibir os conteúdos, e um conjunto de botões que definir o container a ser exibido.
+2. Popover: Uma espécie de balão que é acionado quando o usuário interage com um botão. [Exemplo](https://www.amazon.com.br/) (arrastar o mouse para faça seu login).
+3. Toast: Uma notificação que aparece no canto da tela após uma determinada ação, como clique de um botão. [Exemplo](https://mail.google.com/) (Mensagem que surge quando e-mail é enviado).
+    - Deverá ser possível customizar em qual canto da página o Toast deverá aparecer.
+4. Barra lateral: uma barra lateral que ficará escondida/reduzida no site, e deverá ser exibida interação com usuário. [Exemplo](https://mail.google.com/) (Barra localizada a esquerda, expandida quando usuário interage com ela).
+5. Exibidor de senha: componente que será anexado ao lado de um campo de senha. Ao ser clicado, esse componente deverá exibir a senha que está sendo digitada no campo ao lado. [Exemplo](https://accounts.google.com/).
+6. Contador de caracteres: um componente localizado abaixo de campos de texto que contém o número de caracteres digitados. [Exemplo](https://twitter.com/home) (Contador de caracteres ao postar um tweet).
+   - Deve ser atualizado toda vez que um novo caractere é adicionado ou removido do campo.
+7. Menu: um componente que ficará no topo da página. Deverá exibir todas as opções no modo desktop, mas deverá ser expansível no modo mobile. [Exemplo](https://github.com/) (Menu superior nos modos desktop e mobile).
+8. Cronômetro: um componente que apresentará o tempo corrido de um cronômetro. [Exemplo](http://online-stopwatch.chronme.com/).
+    - O componente deverá apresentar o tempo corrido no formato mm:ss.milisegs, e o botão iniciar/parar.
+9. Contagem regressiva: um relógio de contagem regressiva. Deverá apresentar o número de dias, horas, minutos e segundos restantes. [Exemplo](https://www.timeanddate.com/countdown/chinese?p0=445).
+    - O componente deverá ter um container para cada um dos dígitos (dia, hora, minuto, segundo) a serem exibidos pelo contador.
 
-### Protótipo da Página (3 pontos)
+## Avaliação
 
-Utilize o framework Bootstrap para implementar o protótipo de uma página que irá representar a interface web do jogo da velha.
+Os componentes serão avaliados quanto a:
 
-Pelo fato de ser um protótipo, o protótipo deverá ser implementado utilizando apenas HTML e CSS. Em outras palavras, a Ligação entre o protótipo e lógica do game será considerada em outra seção.
+1. Funcionalidade: Eles funcionam corretamente?
+2. Reúso: Quão simples é utilizar este componente dentro de uma página HTML?
+3. Aspecto Visual: Eles estão estilizados?
+4. Aspecto Responsivo: Eles se adaptam para versões mobile e desktop?
+5. Código: O código está bem organizado e modularizado?
 
-O protótipo da página deverá conter com algumas restrições obrigatórias:
+## Apresentação
 
-* Uma Seção com Título da página
-* Lugar para placar do jogo
-* "Tabuleiro" do jogo da velha deverá ficar centralizado 
-* Deverá ser fornecido um local para que os jogadores repassem seus nomes.
-
-*Dica: Você pode adaptar a estrutura do jogo da memória.*
-
-### Integração Interface e Lógica (6 pontos)
-
-Nessa etapa, você deverá integrar a lógica e protótipos desenvolvidos anteriormente. Para isso será necessário fazer a manipulação do DOM de forma a integrar eventos da página com a lógica do game. Portanto, recomendo o uso de jQuery nessa etapa (**não é obrigatório**). 
-
-A integração deve contar, obrigatoriamente com algumas restrições:
-
-* A interação do usuário será feita através de eventos de click nas posições do tabuleiro do jogo
-* O placar deverá contabilizar quantas partidas ganhou cada um dos jogadores
-* Uma área da página deverá indicar o jogador responsável pela rodada.
+Os componentes deverão ser apresentados para o professor no dia 12/05/2023.
+O grupo deverá mostrar um exemplo do componente em funcionamento, bem como explicar os passos necessários para inicializá-lo na página, seus parâmetros de configuração, e as decisões de implementação tomadas para criação do componente.
