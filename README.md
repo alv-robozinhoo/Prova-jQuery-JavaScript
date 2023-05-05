@@ -9,7 +9,10 @@ Setor de Informática - COLTEC/MG
 **Data de Apresentação: 12/05/2023**
 
 No de integrantes: até quatro alunos.
-
+- Bernardo Alvim
+- Raphael
+- Rafael
+- Leonardo
 
 ## Componentes JavaScript
 

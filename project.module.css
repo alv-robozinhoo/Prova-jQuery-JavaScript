@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hdr{
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hdr img{
+    height: 80px;
+}
+
+.list{
+    margin-top: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    cursor: pointer;
+    margin: 20px;
+}
+
+.item img{
+    height: 30px;
+    transition: 200ms;
+}
+
+.item img:hover{
+    transform: scale(1.15);
+}
