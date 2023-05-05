@@ -44,11 +44,19 @@ body{
 
 .card{
     border-radius: 30px;
-    border: #333333 solid .8px;
-    background-color: grey;
+    width: 300px;
+    border: #4b4b4b solid .8px;
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.card img{
+    height: 300px;
+}
+
+.card p{
+    background-color: grey;
 }
 
 .desc{
