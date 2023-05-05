@@ -36,3 +36,30 @@ body{
 .item img:hover{
     transform: scale(1.15);
 }
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border-radius: 30px;
+    border: #333333 solid .8px;
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.desc{
+    text-align: left;
+    font-family: Arial sans-serif;
+    font-size: 30px;
+}
+
+.price{
+    text-align: right;
+    font-family: Arial sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
