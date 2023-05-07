@@ -10,6 +10,19 @@ function flex(element_id){
     document.getElementById(element_id).style.display = 'flex';
 }
 
+function updateButtonSelected(element_id){
+    if(element_id === divisao_atual){
+        document.getElementById('botao_' + element_id).style.borderBottom = '2px solid black'
+    }else{
+        document.getElementById('botao_' + element_id).style.borderBottom = 'none'
+    }
+
+}
+
+function atualizaBotoes(){
+    totas_as_divisoes.forEach(updateButtonSelected)
+}
+
 function mudarDivisaoDaPagina(element_id){
     if(element_id === 'all'){
         divisao_atual = element_id;
@@ -20,4 +33,5 @@ function mudarDivisaoDaPagina(element_id){
         totas_as_divisoes.forEach(hide);
         document.getElementById(element_id).style.display = 'flex';
     }
+    atualizaBotoes()
 }
