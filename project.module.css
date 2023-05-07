@@ -4,7 +4,7 @@ body{
 }
 
 .hdr{
-    width: 100%;
+    width: 98.56%;
     background-color: #222;
     text-align: center;
     align-items: center;
@@ -24,7 +24,6 @@ body{
 }
 
 .item{
-    cursor: pointer;
     margin: 20px;
 }
 
@@ -37,14 +36,23 @@ body{
     transform: scale(1.15);
 }
 
+.item button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
 .catalog{
     display: flex;
+    margin: 0;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
+    margin: 20px;
     border-radius: 30px;
-    width: 300px;
+    width: 330px;
     border: #4b4b4b solid .8px;
     justify-content: center;
     text-align: center;
@@ -52,22 +60,31 @@ body{
 }
 
 .card img{
-    height: 300px;
+    height: 250px;
+    width: 330px;
 }
 
-.card p{
+.info{
     background-color: grey;
+    border-radius: 0px 0px 29px 29px;
+    padding: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: inherit;
+    height: 22vh;
 }
 
 .desc{
     text-align: left;
-    font-family: Arial sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: 30px;
+    align-items: flex-start;
 }
 
 .price{
-    text-align: right;
-    font-family: Arial sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    align-self: flex-end;
+    margin: 0;
 }
