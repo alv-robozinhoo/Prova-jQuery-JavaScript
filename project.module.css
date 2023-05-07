@@ -25,6 +25,7 @@ body{
 
 .item{
     margin: 20px;
+    background-color: beige;
 }
 
 .item img{
