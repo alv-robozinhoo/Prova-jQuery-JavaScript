@@ -25,7 +25,7 @@ body{
 
 .item{
     margin: 20px;
-    background-color: beige;
+
 }
 
 .item img{
@@ -40,7 +40,7 @@ body{
 .item button{
     border: none;
     cursor: pointer;
-    background-color: white;
+    background-color: RGBA(255,255,255,0.1);
 }
 
 .catalog{
@@ -52,6 +52,7 @@ body{
 
 .card{
     margin: 20px;
+
     border-radius: 30px;
     width: 330px;
     border: #4b4b4b solid .8px;
