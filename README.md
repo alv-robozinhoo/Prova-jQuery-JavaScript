@@ -18,8 +18,8 @@ No de integrantes: até quatro alunos.
 
 Utilizando seus conhecimentos em JavaScript e HTML DOM, implemente um dos seguintes componentes:
 
-1. Abas: um componente que contenha um painel e um conjunto de botões. O conteúdo deste painel muda de acordo com o o botão selecionado. [Exemplo](https://www.youtube.com/) (Tópicos no topo da tela).
-    - Deverão ser utilizados containers para exibir os conteúdos, e um conjunto de botões que definir o container a ser exibido.
+1. <strong>Abas: um componente que contenha um painel e um conjunto de botões. O conteúdo deste painel muda de acordo com o o botão selecionado. [Exemplo](https://www.youtube.com/) (Tópicos no topo da tela).
+    - Deverão ser utilizados containers para exibir os conteúdos, e um conjunto de botões que definir o container a ser exibido.</strong>
 2. Popover: Uma espécie de balão que é acionado quando o usuário interage com um botão. [Exemplo](https://www.amazon.com.br/) (arrastar o mouse para faça seu login).
 3. Toast: Uma notificação que aparece no canto da tela após uma determinada ação, como clique de um botão. [Exemplo](https://mail.google.com/) (Mensagem que surge quando e-mail é enviado).
     - Deverá ser possível customizar em qual canto da página o Toast deverá aparecer.
